@@ -1,0 +1,17 @@
+{
+	"$id": "https://example.com/fruits-and-vegetables-pbw.schema.json",
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"title": "Fruits and vegetables",
+	"description": "Different fruits and vegetables",
+	"type": "object",
+	"properties": {
+		"fruits": {"type": "array"}, 
+			"items": {"type": "string"},
+		"vegetables": {"type": "array"}, 
+			"items": {"type": "object"}, 
+				"properties": {
+					"veggieName": {"type" : "string"}, 
+					"veggieLike": {"type" : "boolean"}
+				}
+	}
+}

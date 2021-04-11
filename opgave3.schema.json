@@ -1,0 +1,34 @@
+{
+	"type": "object",
+	"properties": {
+		"vejnavn" : {"type" : "object"}, 
+			"properties" : {
+				"kode": {"type" : "string"},
+				"navn": {"type" : "string"},
+				"husnr": {"type" : "string"}
+			},
+		"postnummer" : {"type" : "object"}, 
+			"properties" : {
+				"nr": {"type" : "string"},
+				"navn": {"type" : "string"},
+				"kommune": {"type" : "string"}
+			},
+		"wgs84koordinat" : {"type" : "object"}, 
+			"properties" : {
+				"bredde": {"type" : "string"},
+				"laengde": {"type" : "string"}
+			},
+		"tjenesteart" : {"type" : "object"}, 
+			"properties" : {
+				"id": {"type" : "string"},
+				"navn": {"type" : "string"}
+			},
+		"teknologi" : {"type" : "object"}, 
+			"properties" : {
+				"id": {"type" : "string"},
+				"navn": {"type" : "string"}
+			},
+		"unik_station_navn": {"type" : "string"},
+		"frekvensbaand": {"type" : "string"}
+	}
+}

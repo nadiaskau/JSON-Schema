@@ -1,0 +1,18 @@
+{
+	"$id": "https://example.com/doggos.schema.json",
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"title": "Dogs",
+	"description": "The best animal in the world",
+	"additionalProperties": false,
+	"type": "object",
+	"properties": {
+		"breed": {
+            "type": "string", 
+            "description" : "The breed of the dog", 
+            "examples": ["Labrador Retriever", "Poodle"]
+        },
+        "name": {"type": "string"},
+        "age": {"type": "number"},
+        "cute": {"type": "boolean", "description": "Is the dog cute? Well of course"}
+    }
+}

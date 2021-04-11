@@ -1,0 +1,31 @@
+{
+    "vat": 31642124,
+    "name": "IBA Erhvervsakademi Kolding S/I",
+    "address": "Havneparken 1",
+    "zipcode": 6000,
+    "city": "Kolding",
+    "phone": 72118200,
+    "email": "iba@iba.dk",
+    "employees": "200-499",
+    "industrydesc": "Videregående uddannelser ikke på universitetsniveau",
+    "companydesc": "Øvrige virksomhedsformer",
+    "creditbankrupt": false,
+    "productionunits": [
+       {
+          "pno": 1021574526,
+          "name": "Erhvervsakademi Kolding",
+          "address": "Nytorv 2",
+          "zipcode": 6000,
+          "city": "Kolding",
+          "phone": 72118200
+       },
+       {
+          "email": "iba@iba.dk",
+          "startdate": "01/11 - 2014",
+          "enddate": "18/08 - 2019",
+          "employees": null,
+          "industrydesc": "Videregående uddannelser ikke på universitetsniveau"
+       }
+    ],
+    "version": 6
+ }

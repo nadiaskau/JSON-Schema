@@ -1,0 +1,26 @@
+{
+	"vejnavn": {
+		"kode": "4373",
+		"navn": "Klostergade",
+		"husnr": "25"
+	},
+	"postnummer": {
+		"nr": "6000",
+		"navn": "Kolding",
+		"kommune": "Kolding Kommune"
+	},
+	"wgs84koordinat": {
+		"bredde": "55.4891926457071",
+		"laengde": "9.47729268451238"
+	},
+	"tjenesteart": {
+		"id": "2",
+		"navn": "Mobiltelefoni"
+	},
+	"teknologi": {
+		"id": "39",
+		"navn": "GSM"
+	},
+	"unik_station_navn": "KOLDING MIDT",
+	"frekvensbaand": "900"
+}

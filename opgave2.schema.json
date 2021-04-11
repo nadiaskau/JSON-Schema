@@ -1,0 +1,38 @@
+{
+	"$id": "https://example.com/iba-pbw.schema.json",
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"title": "IBA",
+	"description": "Information about IBA Ervhervsakademi Kolding",
+	"type": "object",
+	"properties": {
+		"vat" : {"type" : "number"}, 
+		"name" : {"type" : "string"},
+		"address" : {"type" : "string"},
+		"zipcode" : {"type" : "number"},
+		"city" : {"type" : "string"}, 
+		"phone" : {"type" : "number"},
+		"email" : {"type" : "string"}, 
+		"employees" : {"type" : "string"},
+		"industrydesc" : {"type" : "string"},
+		"companydesc" : {"type" : "string"},
+		"creditbankrupt": {"type" : "boolean"},
+		"productionunits": {"type": "array"},
+			"items" : {"type" : "object"}, 
+				"properties" : {
+					"pno": {"type" : "number"},
+					"name": {"type" : "string"},
+					"address": {"type" : "string"},
+					"zipcode": {"type" : "number"},
+					"city": {"type" : "string"},
+					"phone": {"type" : "number"}
+				},
+				"properties" : {
+					"email": {"type" : "string"},
+					"startdate": {"type" : "string"},
+					"enddate": {"type" : "string"},
+					"employees": {"type" : "null"},
+					"industrydesc": {"type" : "string"}
+				},
+		"version" : {"type" : "number"}
+	}
+}
